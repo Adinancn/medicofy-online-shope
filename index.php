@@ -93,10 +93,10 @@
 							</a>
 						</li> -->
 					<li>
-						<a href="register.html" class="btn btn-primary"><i class="feather-user-plus"></i>Sign Up</a>
+						<a href="register.php" class="btn btn-primary"><i class="feather-user-plus"></i>Sign Up</a>
 					</li>
 					<li>
-						<a href="login.html" class="btn sign-btn"><i class="feather-unlock"></i>Sign In</a>
+						<a href="login.php" class="btn sign-btn"><i class="feather-unlock"></i>Sign In</a>
 					</li>
 				</ul>                                 
 			</nav>            

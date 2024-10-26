@@ -46,35 +46,12 @@
 				<div class="login-wrapper">
 					<div class="loginbox">						
 						<div class="login-auth">
-							<div class="login-auth-wrap">						
-								<h1>Signup! <span class="d-block"> New Account.</span></h1>							
-								<form action="index.html">
-									<div class="form-group">
-										<label class="form-label">Name <span>*</span></label>
-										<input type="text" class="form-control" placeholder="Enter Name">
-									</div>
-									<div class="form-group">
-										<label class="form-label">Address <span>*</span></label>
-										<input type="email" class="form-control" placeholder="Enter Address">
-									</div>
-									<div class="form-group">
-										<label class="form-label">Phone Number <span>*</span></label>
-										<input type="email" class="form-control" placeholder="Enter Phone Number">
-									</div>
-									<div class="form-group">
-										<label class="form-label">Select Country <span>*</span></label>
-										<select class="form-control">
-											<option value="">Select Country</option>
-											<option value="US">United States</option>
-											<option value="CA">Canada</option>
-											<option value="UK">United Kingdom</option>
-											<option value="AU">Australia</option>
-											<!-- Add more options as needed -->
-										</select>
-									</div>
+							<div class="login-auth-wrap">
+								<h1>Hey There!!! Welcome Back.</h1>							
+								<form action="./action_login.php"method="POST">
 									<div class="form-group">
 										<label class="form-label">Email <span>*</span></label>
-										<input type="email" class="form-control" placeholder="Enter Email">
+										<input type="email" class="form-control"  placeholder="Enter Email">
 									</div>
 									<div class="form-group">
 										<label class="form-label">Password <span>*</span></label>
@@ -82,26 +59,34 @@
 											<input type="password" class="form-control pass-input" placeholder="Enter Password">
 											<span class="fas fa-eye toggle-password"></span>
 										</div>
-									</div>		
-									<div class="form-group">
-										<label class="form-label">Confirm Password <span>*</span></label>
-										<div class="pass-group">
-											<input type="password" class="form-control" placeholder="Enter Confirm Password">
-										</div>
-									</div>	
+									</div>								
+									<!-- <div class="form-group mb-5">
+										<a class="forgot-link" href="forgot-password.html">Forgot Password ?</a>
+									</div> -->
 									<div class="form-group">
 										<label class="custom_check mt-0 mb-0"><span>Remember me</span>
 											<input type="checkbox" name="remeber">
 											<span class="checkmark"></span>
 										</label>
 									</div>
-									<a href="login.html" class="btn btn-outline-light w-100 btn-size">Sign Up</a>
-									<div class="text-center dont-have">Already have login? <a href="login.html">Sign In</a></div>
+									<a href="index.html" class="btn btn-outline-light w-100 btn-size">Sign In</a>
+									<!-- <div class="login-or">
+										<span class="span-or-log">Or, Sign in with your email</span>
+									</div> -->
+									<!-- Social Login -->
+									<!-- <div class="social-login">
+										<a href="#" class="d-flex align-items-center justify-content-center form-group btn google-login w-100"><span><img src="assets/img/icons/google.svg" class="img-fluid" alt="Google"></span>Sign in with Google</a>
+									</div> -->
+									<!-- <div class="social-login">
+										<a href="#" class="mb-0 d-flex align-items-center justify-content-center form-group btn google-login w-100"><span><img src="assets/img/icons/facebook.svg" class="img-fluid" alt="Facebook"></span>Sign in with Facebook</a>
+									</div>  -->
+									<!-- /Social Login -->
+									<div class="text-center dont-have">Don't have an account ? <a href="register.html">Sign Up</a></div>
 								</form>							
 							</div>
 						</div>
-				    </div>
-				</div>
+					</div>
+				</div>	
 			</div>		
 		</div>
 		
